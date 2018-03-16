@@ -136,6 +136,10 @@ p {
     outline: 0;
 }
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 .slider {
 	padding-top:50px;
 }
