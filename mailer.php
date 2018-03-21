@@ -1,6 +1,6 @@
 <?php
     ob_start();
-    $to = "ryancwilson@live.co.uk";
+    $to = "example@email.co.uk";
     $subject = "Support requested by ".$_POST['name'];
     $name_field = $_POST['name'];
 	$phone_field = $_POST['phone'];
