@@ -1,0 +1,15 @@
+/* Team */
+	Web Designer: Ryan Wilson
+	Contact: Ryancwilson@outlook.com
+	Twitter: @RyanWilson_8
+	From: Uttoxeter, Staffordshire, United Kingdom
+	
+	Web Designer: Donna James
+	Contact: XXX
+	Location: Cheddleton, Stoke-On-Trent, United Kingdom
+
+/* Site */
+	Last update: 2018/03/29
+	Language: English
+	Doctype: HTML5, PHP
+	IDE: Atom, Notepad++
