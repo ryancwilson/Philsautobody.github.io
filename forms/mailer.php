@@ -11,7 +11,7 @@
        'Reply-To: '.$_POST['email'].'' . "\r\n" .
        'X-Mailer: PHP/' . phpversion();
     
-    $body = 'Name: ' . $name_field . "\r\n" . 'Message: ' . $message . "\r\n" . 'Phone Number: ' . $phone_field;
+    $body = 'Name: ' . $name_field . "\r\n" . 'Phone Number: ' . $phone_field . "\r\n" . 'Message: ' . $message;
     
     @mail($to, $subject, $body, $headers );
     header( 'Location:thankyou.php' ) ; //replace with landing page.
