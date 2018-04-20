@@ -141,7 +141,9 @@ p {
 }
 
 .slider {
-	padding-top:50px;
+	padding-top:0px;
+		padding-bottom:-50px;
+
 }
 
 #carousel-slider {
@@ -382,6 +384,11 @@ p {
   opacity: 1;
 }
 
+#portfolio .class2  {	
+	text-align:center;
+	font-size:20px;
+}
+
 #about  {
 	margin-top:80px;
 	margin-bottom:40px;
@@ -393,24 +400,28 @@ p {
 	margin-bottom:50px;
 }
 
+#about .lead2 {
+	text-align:center;
+	font-size:40px;
+}
+
 #about  img {	
 	margin-bottom:40px;
 }
-
 .panel-default{
   border-color: transparent;
 }
 
 .panel-default>.panel-heading,
 .panel{
-  background-color: #ff00000; 
+  background-color: #e6e6e6; 
   border:0 none;
   box-shadow:none;
 }
 
 .panel-default>.panel-heading+.panel-collapse .panel-body{
   background: #fff;
-  color: #ff0000;
+  color: #858586;
 }
 
 .panel-body{
@@ -440,7 +451,7 @@ p {
 
 
 .panel-heading.active{
-  background: #ff0000;
+  background: #1f1f20;
 }
 
 .panel-heading.active .panel-title>a{
@@ -454,7 +465,7 @@ a.accordion-toggle  i{
   margin-top: -10px;
   text-align: center;
   margin-right: -15px;
-  background: #Ff0000;
+  background: #ff0000;
   color:#fff;
 }
 
@@ -464,10 +475,14 @@ a.accordion-toggle  i{
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i{
-  background: #000000;
+  background: #Ff0000;
   color: #fff;
 }
 
+#home{
+	padding-bottom: 0px;
+
+}
 #features {
 	margin-top:50px;
 	padding:50px;
@@ -484,6 +499,7 @@ a.accordion-toggle  i{
 	border-radius:0%;
 	margin-top:30px;
 	margin-bottom:40px;
+
 }
 
 /* --- Map --- */
@@ -500,17 +516,53 @@ a.accordion-toggle  i{
 	border:none;
 }
 
-
+.details{
+	color:white;
+	 font-weight: 900;
+  font-size: 0.5em;
+	
+}
 
 .contact-page{
-  padding-top: 80px;
-  background:#F77CAD;
+  padding-top: 30px;
+  background:#ff0000;
   margin-top:-10px;
 }
 
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+  color: white;
+  position: center;
+}
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+  color: white;
+  position: center;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+    position: center;
+
+}
 .contact-page .contact-form 
 .form-group label {
-  color: #4E4E4E;
+  color: #ff0000;
   font-size: 16px;
   font-weight: 300;
 }
@@ -518,9 +570,10 @@ a.accordion-toggle  i{
 .form-group .form-control {
   padding: 7px 12px;
   border-color:#f2f2f2;
-  box-shadow: none;
-  border-radius:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:0%;
 }
+
 
 textarea#message{
   resize: none;
